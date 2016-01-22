@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- [
+
+    Formato para los códigos de Font Awesome:
+
+    &#x[unicode]; -> ex.
+        Hear:
+            class: fa-heart
+            unicode: f004
+            res: &#xf004;
+
+    ]-->
+    <string name="fa_heart">&#xf004;</string>
+
+</resources>

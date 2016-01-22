@@ -1,0 +1,53 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.2"
+
+    defaultConfig {
+        applicationId "im.dnn.holabonita"
+        minSdkVersion 14
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:23.1.1'
+    compile 'com.android.support:design:23.1.1'
+
+    // loopj -> HTTP Client
+    compile 'com.loopj.android:android-async-http:1.4.+'
+
+    // Picasso -> Cliente HTTP de imágenes y cache
+    compile 'com.squareup.picasso:picasso:2.5.+'
+
+    // Imágenes circulares
+    compile 'de.hdodenhof:circleimageview:1.2.1'
+
+    // Floating Action Button
+    compile 'com.getbase:floatingactionbutton:1.2.1'
+
+    // Dots Pagination
+    compile 'me.relex:circleindicator:1.1.2@aar'
+
+    // Ripple Effect
+    compile 'com.github.traex.rippleeffect:library:1.2.3'
+
+    // Parallax Pager
+    compile 'com.xgc1986.android:parallaxpagertransformer:1.0.3'
+
+    // View Animations
+    compile 'com.nineoldandroids:library:2.4.0'
+    compile 'com.daimajia.easing:library:1.0.1@aar'
+    compile 'com.daimajia.androidanimations:library:1.1.3@aar'
+}

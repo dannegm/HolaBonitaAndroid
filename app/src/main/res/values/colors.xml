@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- App theme -->
+    <color name="bg_gray">#3A383C</color>
+
+    <color name="p_cyan">#A7CEE7</color>
+    <color name="p_salmon">#F2B8B2</color>
+    <color name="p_magenta">#BB99CB</color>
+    <color name="p_pistach">#B0DBD0</color>
+</resources>
